@@ -1,0 +1,15 @@
+name: Manual Incident Report
+description: Open an incident manually
+title: "[incident]: "
+labels: ["status"]
+body:
+  - type: input
+    attributes:
+      label: Summary
+      description: Summary or Title of what's going on
+  - type: textarea
+    attributes:
+      label: Description
+      description: Extra information of what's going on ...
+      value: Extra information of what's going on ...
+      render: markdown
