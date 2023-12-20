@@ -5,10 +5,18 @@ repo: app-status # The name of this repository
 sites:
   - name: Portal Bridge
     url: https://portalbridge.com
+    assignees:
+      - sebastianscatularo
+      - yuli-ferna
   - name: USDC Bridge
     url: https://portalbridge.com/usdc-bridge/
+    assignees:
+      - sebastianscatularo
+      - yuli-ferna
   - name: Wormholescan
     url: https://wormholescan.io
+    assignees:
+      - valentinoConti
   - name: Wormholescan API
     url: https://api.wormholescan.io/api/v1/health
 
