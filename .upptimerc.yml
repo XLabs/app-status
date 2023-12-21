@@ -20,6 +20,130 @@ sites:
   - name: Wormholescan API
     url: https://api.wormholescan.io/api/v1/health
 
+  - name: Solana
+    url: https://vaa-status-check.netlify.app/network/1
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Ethereum
+    url: https://vaa-status-check.netlify.app/network/2
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Terra
+    url: https://vaa-status-check.netlify.app/network/3
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: BSC
+    url: https://vaa-status-check.netlify.app/network/4
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Polygon
+    url: https://vaa-status-check.netlify.app/network/5
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Avalanche
+    url: https://vaa-status-check.netlify.app/network/6
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Oasis
+    url: https://vaa-status-check.netlify.app/network/7
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Algorand
+    url: https://vaa-status-check.netlify.app/network/8
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Fantom
+    url: https://vaa-status-check.netlify.app/network/10
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Karura
+    url: https://vaa-status-check.netlify.app/network/11
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Acala
+    url: https://vaa-status-check.netlify.app/network/12
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Klaytn
+    url: https://vaa-status-check.netlify.app/network/13
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Celo
+    url: https://vaa-status-check.netlify.app/network/14
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Near
+    url: https://vaa-status-check.netlify.app/network/15
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Moonbeam
+    url: https://vaa-status-check.netlify.app/network/16
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Terra2
+    url: https://vaa-status-check.netlify.app/network/18
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Injective
+    url: https://vaa-status-check.netlify.app/network/19
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Sui
+    url: https://vaa-status-check.netlify.app/network/21
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Aptos
+    url: https://vaa-status-check.netlify.app/network/22
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Arbitrum
+    url: https://vaa-status-check.netlify.app/network/23
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Optimism
+    url: https://vaa-status-check.netlify.app/network/24
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Xpla
+    url: https://vaa-status-check.netlify.app/network/28
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Base
+    url: https://vaa-status-check.netlify.app/network/30
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Sei
+    url: https://vaa-status-check.netlify.app/network/32
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+  - name: Sei
+    url: https://vaa-status-check.netlify.app/network/3104
+    headers:
+      - "accept: application/json"
+    __dangerous__body_degraded: '"status":"warning"'
+
 workflowSchedule:
   graphs: "0 0 * * *"
   responseTime: "0 23 * * *"
