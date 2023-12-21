@@ -1,7 +1,7 @@
 url: https://vaa-status-check.netlify.app/network/5
-status: up
+status: degraded
 code: 200
-responseTime: 7
-lastUpdated: 2023-12-21T06:17:33.200Z
+responseTime: 540
+lastUpdated: 2023-12-21T06:37:06.287Z
 startTime: 2023-12-21T05:33:05.223Z
 generator: Upptime <https://github.com/upptime/upptime>
