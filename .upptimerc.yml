@@ -138,7 +138,7 @@ sites:
     headers:
       - "accept: application/json"
     __dangerous__body_degraded: '"status":"warning"'
-  - name: Sei
+  - name: Wormchain
     url: https://vaa-status-check.netlify.app/network/3104
     headers:
       - "accept: application/json"
