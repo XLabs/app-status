@@ -58,7 +58,7 @@
     "url": "https://api.wormholescan.io/api/v1/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.wormholescan.io.ico",
     "slug": "wormholescan-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -69,6 +69,8 @@
     "timeWeek": 278,
     "timeMonth": 306,
     "timeYear": 306,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-12-29": 0
+    }
   }
 ]
