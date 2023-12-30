@@ -1,7 +1,7 @@
 url: https://api.wormholescan.io/api/v1/health
 status: up
 code: 200
-responseTime: 131
-lastUpdated: 2023-12-29T23:00:42.906Z
+responseTime: 336
+lastUpdated: 2023-12-30T23:00:39.839Z
 startTime: 2023-12-20T23:50:39.003Z
 generator: Upptime <https://github.com/upptime/upptime>
